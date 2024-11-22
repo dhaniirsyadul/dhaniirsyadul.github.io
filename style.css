@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "SF Pro";
+  src: url(fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+@font-face {
+  font-family: "SF Black";
+  src: url(fonts/SFPRODISPLAYBOLD.OTF);
+}
+@font-face {
+  font-family: "brice";
+  src: url(fonts/Brice-Regular.otf);
+}
+
+body {
+  font-family: "SF Pro";
+}
+
+.jumbotron {
+  padding-top: 7em;
+  background-color: #b48a4b;
+
+}
+#about {
+  background-color: rgb(206, 153, 83);
+}
+#project {
+  padding-top: 7em;
+  background-color: #b48a4b;
+}
+.card {
+  box-shadow: 2px 2px 2px;
+}
+#contect {
+  background-color: #808080;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+h1 {
+  padding-top: 0.5em;
+  font-family: "SF Black";
+  font-style: italic;
+}
+h2 {
+  font-family: "brice";
+  padding-bottom: 1em;
+}
+
+#formrow {
+  background-color: rgb(170, 53, 53);
+  padding: 1em;
+  border-radius: 1em;
+}
+footer {
+  padding: 2em;
+  background-color: black;
+}
